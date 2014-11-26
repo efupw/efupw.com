@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"),
+  url("https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+body {
+  background-color: #0B0B0B;
+  background-image: url("img/udbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: #dddddd;
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  background-color: #06000d;
+  border-bottom: 1px solid #1C1726;
+}
+nav a {
+  color: cadetblue;
+  color: #ddd;
+}
+nav a:visited {
+  color:blueviolet;
+}
+nav a:hover {
+  color: red;
+}
+.page {
+  width: 868px;
+  margin: 0px auto;
+}
+.content {
+  background-color: rgba(50, 50, 50, 0.8);
+  padding: 1em;
+  background-image: url("img/BGDarkMain.png");
+}
+.main {
+}
+.panel {
+  float: right;
+  margin-left: 1em;
+  margin-top: -1.25em;
+  background-color: #1c1726;
+}
+.logo {
+  margin: 0px auto;
+  width: 603px;
+}
+ul {
+  list-style: none;
+  margin: 0px auto;
+  text-align: center;
+  padding: 0px;
+}
+li {
+  display: inline-block;
+  margin: 0em 0.9em;
+}
