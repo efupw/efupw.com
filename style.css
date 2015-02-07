@@ -11,6 +11,7 @@ body {
   background-image: url("img/udbg.jpg");
   background-repeat: no-repeat;
   background-position: center top;
+  background-attachment: fixed;
   color: #dddddd;
   font-family: "Open Sans", sans-serif;
 }
