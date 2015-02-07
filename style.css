@@ -49,6 +49,9 @@ h1 {
 .navigation--list-item:hover {
   background-color: #251e32;
 }
+.navigation--list-item-current {
+  background: #1C1726;
+}
 .join-us {
   background: #1c1726;
   padding: 0em 1em;
