@@ -34,32 +34,36 @@ h1 {
   margin: 0px auto;
   width: 50em;
 }
+.grid {
+  display: flex;
+  display: -webkit-flex;
+}
+.grid--cell {
+  flex: 1 1 0%;
+  -webkit-flex: 1 1 0%;
+}
 .navigation {
   background: #06000d;
 }
-.navigation--list {
-  list-style: none;
-  margin: 0px auto;
-  padding: 0px;
+.navigation--item {
+  padding: .5em 1em;
+  text-align: center;
 }
-.navigation--list-item {
-  display: inline-block;
-  padding: 0.4em 1.083em;
-}
-.navigation--list-item:hover {
+.navigation--item:hover {
   background-color: #251e32;
 }
-.navigation--list-item-current {
+.navigation--item-current {
   background: #1C1726;
+}
+.navigation--item-story {
+  min-width: 8em;
+}
+.navigation--item-newplayers {
+  min-width: 13.2em;
 }
 .join-us {
   background: #1c1726;
   padding: 0em 1em;
-}
-.join-us--place {
-  display: inline-block;
-  vertical-align: middle;
-  width: 24em;
 }
 .content {
   background: #171717;
