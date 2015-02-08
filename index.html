@@ -8,25 +8,35 @@
   </head>
   <body>
     <div class="logo"><img src="img/logo.png" alt="Logo" class="dlogo"></div>
-    <nav class="page navigation">
-      <ul class="navigation--list"
-        ><li class="navigation--list-item navigation--list-item-current">
-          <a href="/">Home</a>
-        </li><li class="navigation--list-item">
-          <a href="/the-story-so-far.html">The Story So Far</a>
-        </li><li class="navigation--list-item">
-          <a href="/">Getting Started</a>
-        </li><li class="navigation--list-item">
-          <a href="/forums/forumdisplay.php?f=22">Information for New Players</a>
-        </li><li class="navigation--list-item">
-          <a href="/efusl/poc.php">EFUSL</a>
-        </li><li class="navigation--list-item">
-          <a href="/forums">Forums</a>
-        </li></ul>
+    <nav class="page grid navigation">
+      <a class="grid--cell navigation--item navigation--item-current"
+        href="/">
+        Home
+      </a>
+      <a class="grid--cell navigation--item navigation--item-story"
+        href="/the-story-so-far.html">
+        The Story So Far
+      </a>
+      <a class="grid--cell navigation--item"
+        href="/">
+        Quickstart
+      </a>
+      <a class="grid--cell navigation--item navigation--item-newplayers"
+        href="/forums/forumdisplay.php?f=22">
+        Information for New Players
+      </a>
+      <a class="grid--cell navigation--item"
+        href="/efusl/poc.php">
+        EFUSL
+      </a>
+      <a class="grid--cell navigation--item"
+        href="/forums">
+        Forums
+      </a>
     </nav>
     <div class="page">
-      <div class="join-us">
-        <div class="join-us--place">
+      <div class="grid join-us">
+        <div class="grid--cell">
           <p>
             <strong>Game server</strong>
             <br>
@@ -34,7 +44,8 @@
             <br>
             Status: <span id="server-status">checking&hellip;</span>
           </p>
-        </div><div class="join-us--place">
+        </div>
+        <div class="grid--cell">
           <p>
             <strong>IRC</strong>
             <br>
