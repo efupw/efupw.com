@@ -66,6 +66,22 @@ h1 {
   background: #171717;
   padding: 1em;
 }
+.quote--quotation {
+  color: gray;
+  font-style: italic;
+  margin: 0em;
+  padding: 0em;
+}
+.quote--attribution {
+  font-style: normal;
+  margin-bottom: 0em;
+  text-align: right;
+}
+.inline-img {
+  border: 3px solid black;
+  display: block;
+  margin: 0em auto;
+}
 
 @media (min-width: 24em) {
   body {
@@ -81,6 +97,18 @@ h1 {
   .navigation > .grid--cell {
     flex: 0 0 50%;
     -webkit-flex: 0 0 50%;
+  }
+  .quote--quotation {
+    padding: .5em 1em;
+  }
+  .inline-img {
+    margin: 0em .5em;
+  }
+  .inline-img--left {
+    float: left;
+  }
+  .inline-img--right {
+    float: right;
   }
 }
 @media (min-width: 40em) {
@@ -109,5 +137,8 @@ h1 {
   }
   .navigation--item-newplayers {
     min-width: 13.2em;
+  }
+  .quote--quotation {
+    margin: 0em 2.5em
   }
 }
