@@ -7,10 +7,6 @@
 }
 body {
   background-color: #0B0B0B;
-  background-image: url("img/udbg.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
   color: #dddddd;
   font-family: "Open Sans", sans-serif;
 }
@@ -70,6 +66,12 @@ h1 {
 }
 
 @media (min-width: 24em) {
+  body {
+    background-image: url("img/udbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+  }
   .join-us > .grid--cell {
     flex: 1 1 0%;
     -webkit-flex: 1 1 0%;
