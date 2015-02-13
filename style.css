@@ -46,6 +46,7 @@ h1 {
 }
 .navigation {
   background: #06000d;
+  border-bottom: 2px solid #1C1726
 }
 .navigation--item {
   padding: .5em 0em;
