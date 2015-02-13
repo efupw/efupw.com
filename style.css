@@ -21,6 +21,7 @@ a:hover {
 }
 h1 {
   margin-top: 0px;
+  border-bottom: 1px solid #404040
 }
 .logo {
   display: block;
