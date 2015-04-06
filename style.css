@@ -110,6 +110,10 @@ h1 {
   .inline-img--right {
     float: right;
   }
+  .inline-img--center {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (min-width: 40em) {
   .logo--small {
