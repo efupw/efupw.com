@@ -132,14 +132,18 @@ h1 {
   .grid--cell {
     flex: 1 1 0%;
     -webkit-flex: 1 1 0%;
+    min-width: 3.0em;
   }
   .navigation--item {
     padding: .5em 1em;
   }
-  .navigation--item-story {
+  .navigation > .navigation--item-story {
     min-width: 8em;
   }
-  .navigation--item-newplayers {
+  .navigation > .navigation--item-quickstart {
+    min-width: 4.0em;
+  }
+  .navigation > .navigation--item-newplayers {
     min-width: 13.2em;
   }
   .quote--quotation {
