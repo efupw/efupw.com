@@ -1,0 +1,6 @@
+* text=auto
+
+*.php diff=php
+
+*.jpe?g binary
+*.png binary
