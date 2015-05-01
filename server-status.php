@@ -1,8 +1,7 @@
 <?php
+// Define $hostname and $port in server-status-config.php.
+require 'server-status-config.php';
 require 'nwn-server-status/nwn_server_status.php';
-
-$hostname = 'localhost';
-$port = 5121;
 
 $expires = time();
 if (isset($_SERVER['HTTP_IF_MODIFIED_SINCE'])) {
