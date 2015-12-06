@@ -18,6 +18,10 @@ but it is simple, reliable, fast, and completely transparent.
 The design is based on the EfU:R *Purple Crystal* vBulletin 5 theme by Arc.
 Thanks, Arc!
 
+## Deployment
+
+The `dist/` directory is the `efupw.com` root directory.
+
 ## Contributing
 
 Contributions are welcome! Please review [the guidelines](CONTRIBUTING.md).
