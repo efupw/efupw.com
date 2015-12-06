@@ -48,6 +48,8 @@ However, some guidelines should be observed:
 * Write [good commit messages][good-commit-messages]
   and [format them nicely][format].
 
+* Run `./build.sh` before committing.
+
 ## Can I get commit access?
 
 Almost certainly yes.

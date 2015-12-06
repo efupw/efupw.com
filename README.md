@@ -30,21 +30,16 @@ Contributions are welcome! Please review [the guidelines](CONTRIBUTING.md).
 
 There are a lot of static site generators in the wild.
 Some of them are even half-way decent.
-This repository currently does not use one,
-but not out of philosophical reasons.
-It was seriously considered,
-especially because the most complex HTML is repeated.
-It was then decided against, because
+This repository uses none of them,
+but it has its own, very simplistic generator
+that uses Bash 4 and Awk.
+Invoke it by running `./build.sh`,
+and do this before committing.
 
-* the HTML was already written;
-
-* most generators are far too big for our needs
-  (`cat` and `make`would suffice, really);
-
-* there are absolutely no plans to add more pages;
-
-* it would require a build step,
-  which would have to be coded and would make deployment more work.
-
-In case the site is redesigned again,
-that would be a good opportunity to reconsider some manner of site generator.
+The choice of a bespoke generator in favour of a more robust solution
+is not a philosophical one.
+Adopting a static site generator was seriously considered,
+but they add considerable overhead to the development process
+in return for a lot of features that simply were not necessary here.
+Additionally, most of the HTML was already written at the time,
+so little value stood to be gained.
