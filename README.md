@@ -18,6 +18,14 @@ but it is simple, reliable, fast, and completely transparent.
 The design is based on the EfU:R *Purple Crystal* vBulletin 5 theme by Arc.
 Thanks, Arc!
 
+## Local development setup
+
+Clone this repository (and its submodules):
+
+```sh
+git clone --recursive git@gitlab.com:efupw/efupw.com.git
+```
+
 ## Deployment
 
 The `dist/` directory is the `efupw.com` root directory.
