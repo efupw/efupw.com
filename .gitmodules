@@ -1,0 +1,3 @@
+[submodule "dist/nwn-server-status"]
+	path = dist/nwn-server-status
+	url = git@gitlab.com:efupw/nwn-server-status.git
