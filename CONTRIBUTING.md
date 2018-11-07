@@ -69,6 +69,6 @@ either open an issue for discussion
 or ask on the IRC channel, 
 `irc://irc.darkmyst.org:6667/efu`.
 
-[sem-lf]: http://rhodesmill.org/brandon/2012/one-sentence-per-line/
+[sem-lf]: https://rhodesmill.org/brandon/2012/one-sentence-per-line/
 [good-commit-messages]: https://github.com/postgres/postgres/commits/master
-[format]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[format]: https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
