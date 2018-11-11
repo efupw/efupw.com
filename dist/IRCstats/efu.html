@@ -1,0 +1,794 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- This page was created on 7.9.2008 0:07 with a registered version (#31134F3) of mIRCStats v1.21 by Mikko "Ave" Auvinen -->
+<!-- SLPL parser engine configuration: "mIRC Polaris X v1.11" created by ExileStrife -->
+<!-- Do not modify the page source!  (Logged Lines: 4056941) -->
+
+<!-- mIRCStats WWW: http://www.nic.fi/~mauvinen/mircstats/ -->
+
+<html><head><title>#EFU stats from ExileStrife!</title>
+<style type="text/css">
+<!--
+@import url(styles1.css);
+-->
+</style>
+
+<title>Escape from the Underdark - A Neverwinter Nights PW</title>
+<link rel='stylesheet' href='styles.css' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style3 {color: #66CC33}
+-->
+</style>
+</head>
+<body background ="mainbackground.jpg" bgcolor="#E0E0F0" text="#080000" link="#080000" vlink="#080000" alink="#080000"><center>
+<div align="center">&nbsp;
+  <table width="700" border="1" cellpadding="0" cellspacing="0" bordercolor="#999999">
+    <tr>
+    <td>
+	  <table width="700" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+    <td><table id="header" width="700" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+    <td colspan="7"> <img src="../images/header-pic.jpg" width="700" height="125" alt=""></td>
+	</tr>
+	<tr>
+	<td><a href="../index.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','../images/nav-homeover.jpg',1)"><img src="../images/nav-home.jpg" alt="home" name="home" width="80" height="25" border="0"></a></td>
+    <td><a href="../tour.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tour','','../images/nav-tourover.jpg',1)"><img src="../images/nav-tour.jpg" alt="tour" name="tour" width="70" height="25" border="0"></a></td>
+    <td><a href="../started.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gettingstarted','','../images/nav-startedover.jpg',1)"><img src="../images/nav-started.jpg" alt="getting started" name="gettingstarted" width="150" height="25" border="0"></a></td>
+    <td><a href="../applications.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('application','','../images/nav-applicationover.jpg',1)"><img src="../images/nav-application.jpg" alt="applications" name="application" width="120" height="25" border="0"></a></td>
+    <td> <a href="../rules.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('rules','','../images/nav-rulesover.jpg',1)"><img src="../images/nav-rules.jpg" alt="rules" name="rules" width="80" height="25" border="0"></a></td>
+    <td><a href="../campaign.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('campaign','','../images/nav-campaignover.jpg',1)"><img src="../images/nav-campaign.jpg" alt="campaign information" name="campaign" width="100" height="25" border="0"></a></td>
+    <td> <a href="http://escapefromunderdark.com/forums/index.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('forums','','../images/nav-forumsover.jpg',1)"><img src="../images/nav-forums.jpg" alt="forums" name="forums" width="100" height="25" border="0"></a></td>
+	</tr>
+</table></td>
+  </tr>
+  <tr>
+            <td background="../images/tile-stone.jpg">
+			<table width="700" border="0" cellpadding="0" cellspacing="15">
+                <tr>
+                  <td valign="top" class="txt3">
+<!-- mircstatsheader.txt: Add here your own header html code! -->
+
+ 
+1. Main page
+ | <a href="efu_page_2.html" target="_self">2. Detailed Analysis</a>
+ | <a href="efu_page_3.html" target="_self">3. Detailed Personals</a>
+<br><br>
+<a name="dail"></a>
+<span class=txt1><hr width="90%"><br></span>
+<h3>Daily activity</h3>
+<Table cellspacing=0 cellpadding=1><tr class=s1 valign=bottom>
+<td class=tgr>2733<br><img src="pipe4v.png" width="19" height="18"><br><img src="pipe3v.png" width="19" height="13"><br><img src="pipe2v.png" width="19" height="5"><br><img src="pipe1v.png" width="19" height="25"></td>
+<td class=tgr>4452<br><img src="pipe4v.png" width="19" height="16"><br><img src="pipe3v.png" width="19" height="20"><br><img src="pipe2v.png" width="19" height="30"><br><img src="pipe1v.png" width="19" height="35"></td>
+<td class=tgr>4333<br><img src="pipe4v.png" width="19" height="24"><br><img src="pipe3v.png" width="19" height="27"><br><img src="pipe2v.png" width="19" height="10"><br><img src="pipe1v.png" width="19" height="37"></td>
+<td class=tgr>3421<br><img src="pipe4v.png" width="19" height="26"><br><img src="pipe3v.png" width="19" height="18"><br><img src="pipe2v.png" width="19" height="4"><br><img src="pipe1v.png" width="19" height="28"></td>
+<td class=tgr>3330<br><img src="pipe4v.png" width="19" height="45"><br><img src="pipe3v.png" width="19" height="23"><br><img src="pipe2v.png" width="19" height="4"><br><img src="pipe1v.png" width="19" height="2"></td>
+<td class=tgr>3567<br><img src="pipe4v.png" width="19" height="27"><br><img src="pipe3v.png" width="19" height="14"><br><img src="pipe2v.png" width="19" height="11"><br><img src="pipe1v.png" width="19" height="28"></td>
+<td class=tgr>0<br><img src="pipe4v.png" width="19" height="1"><br></td>
+<td class=tgr>0<br><img src="pipe4v.png" width="19" height="1"><br></td>
+<td class=tgr>0<br><img src="pipe4v.png" width="19" height="1"><br></td>
+<td class=tgr>0<br><img src="pipe4v.png" width="19" height="1"><br></td>
+<td class=tgr>0<br><img src="pipe4v.png" width="19" height="1"><br></td>
+<td class=tgr>0<br><img src="pipe4v.png" width="19" height="1"><br></td>
+<td class=tgr>0<br><img src="pipe4v.png" width="19" height="1"><br></td>
+<td class=tgr>1576<br><img src="pipe4v.png" width="19" height="35"><br></td>
+<td class=tgr>2862<br><img src="pipe4v.png" width="19" height="21"><br><img src="pipe3v.png" width="19" height="23"><br><img src="pipe2v.png" width="19" height="10"><br><img src="pipe1v.png" width="19" height="10"></td>
+<td class=tgr>2556<br><img src="pipe4v.png" width="19" height="13"><br><img src="pipe3v.png" width="19" height="18"><br><img src="pipe2v.png" width="19" height="4"><br><img src="pipe1v.png" width="19" height="22"></td>
+<td class=tgr>1770<br><img src="pipe4v.png" width="19" height="19"><br><img src="pipe3v.png" width="19" height="7"><br><img src="pipe2v.png" width="19" height="5"><br><img src="pipe1v.png" width="19" height="9"></td>
+<td class=tgr>1905<br><img src="pipe4v.png" width="19" height="13"><br><img src="pipe3v.png" width="19" height="17"><br><img src="pipe2v.png" width="19" height="7"><br><img src="pipe1v.png" width="19" height="6"></td>
+<td class=tgr>2087<br><img src="pipe4v.png" width="19" height="22"><br><img src="pipe3v.png" width="19" height="14"><br><img src="pipe2v.png" width="19" height="9"><br><img src="pipe1v.png" width="19" height="1"></td>
+<td class=tgr>1960<br><img src="pipe4v.png" width="19" height="14"><br><img src="pipe3v.png" width="19" height="15"><br><img src="pipe2v.png" width="19" height="5"><br><img src="pipe1v.png" width="19" height="10"></td>
+<td class=tgr>2542<br><img src="pipe4v.png" width="19" height="19"><br><img src="pipe3v.png" width="19" height="14"><br><img src="pipe2v.png" width="19" height="16"><br><img src="pipe1v.png" width="19" height="8"></td>
+<td class=tgr>2695<br><img src="pipe4v.png" width="19" height="21"><br><img src="pipe3v.png" width="19" height="20"><br><img src="pipe2v.png" width="19" height="8"><br><img src="pipe1v.png" width="19" height="11"></td>
+<td class=tgr>1590<br><img src="pipe4v.png" width="19" height="7"><br><img src="pipe3v.png" width="19" height="11"><br><img src="pipe2v.png" width="19" height="3"><br><img src="pipe1v.png" width="19" height="15"></td>
+<td class=tgr>3560<br><img src="pipe4v.png" width="19" height="27"><br><img src="pipe3v.png" width="19" height="36"><br><img src="pipe2v.png" width="19" height="9"><br><img src="pipe1v.png" width="19" height="9"></td>
+<td class=tgr>2576<br><img src="pipe4v.png" width="19" height="20"><br><img src="pipe3v.png" width="19" height="17"><br><img src="pipe2v.png" width="19" height="7"><br><img src="pipe1v.png" width="19" height="14"></td>
+<td class=tgr>2469<br><img src="pipe4v.png" width="19" height="12"><br><img src="pipe3v.png" width="19" height="27"><br><img src="pipe2v.png" width="19" height="11"><br><img src="pipe1v.png" width="19" height="5"></td>
+<td class=tgr>2287<br><img src="pipe4v.png" width="19" height="9"><br><img src="pipe3v.png" width="19" height="21"><br><img src="pipe2v.png" width="19" height="11"><br><img src="pipe1v.png" width="19" height="10"></td>
+<td class=tgr>3421<br><img src="pipe4v.png" width="19" height="37"><br><img src="pipe3v.png" width="19" height="11"><br><img src="pipe2v.png" width="19" height="18"><br><img src="pipe1v.png" width="19" height="10"></td>
+<td class=tgr>3957<br><img src="pipe4v.png" width="19" height="56"><br><img src="pipe3v.png" width="19" height="17"><br><img src="pipe2v.png" width="19" height="2"><br><img src="pipe1v.png" width="19" height="14"></td>
+<td class=tgr>1<br><img src="pipe4v.png" width="19" height="1"><br></td>
+</tr><tr class=s3>
+<td class=v4>9.8</td>
+<td class=v4>10.8</td>
+<td class=v6>11.8</td>
+<td class=v6>12.8</td>
+<td class=v6>13.8</td>
+<td class=v6>14.8</td>
+<td class=v6>15.8</td>
+<td class=v4>16.8</td>
+<td class=v4>17.8</td>
+<td class=v6>18.8</td>
+<td class=v6>19.8</td>
+<td class=v6>20.8</td>
+<td class=v6>21.8</td>
+<td class=v6>22.8</td>
+<td class=v4>23.8</td>
+<td class=v4>24.8</td>
+<td class=v6>25.8</td>
+<td class=v6>26.8</td>
+<td class=v6>27.8</td>
+<td class=v6>28.8</td>
+<td class=v6>29.8</td>
+<td class=v4>30.8</td>
+<td class=v4>31.8</td>
+<td class=v6>1.9</td>
+<td class=v6>2.9</td>
+<td class=v6>3.9</td>
+<td class=v6>4.9</td>
+<td class=v6>5.9</td>
+<td class=v4>6.9</td>
+<td class=v4>7.9</td>
+</tr></table><br>
+<Table border=0 class=txt1><tr>
+<td class=tinv><img src="pipe1.png" height="15" width="30" align=top alt="0-6"> Hours 0-6</td><td class=tinv width=20></td>
+<td class=tinv><img src="pipe2.png" height="15" width="30" align=top alt="6-12"> Hours 6-12</td><td class=tinv width=20></td>
+<td class=tinv><img src="pipe3.png" height="15" width="30" align=top alt="12-18"> Hours 12-18</td><td class=tinv width=20></td>
+<td class=tinv><img src="pipe4.png" height="15" width="30" align=top alt="18-24"> Hours 18-24</td>
+
+</tr></table><br>
+<a name="hourl"></a>
+<span class=txt1><hr width="90%"><br></span>
+<h3>Channel load by hours</h3>
+<Table cellspacing=1 cellpadding=0><tr class=s1 valign=bottom>
+<td class=tgr><img src="pipe1.png" width="3" height="92"></td><td class=tgr><img src="pipe1.png" width="3" height="92"></td><td class=tgr><img src="pipe1.png" width="3" height="93"></td><td class=tgr><img src="pipe1.png" width="3" height="95"></td><td class=tgr><img src="pipe1.png" width="3" height="95"></td><td class=tgr><img src="pipe1.png" width="3" height="94"></td>
+<td class=tgr><img src="pipe1.png" width="3" height="93"></td><td class=tgr><img src="pipe1.png" width="3" height="92"></td><td class=tgr><img src="pipe1.png" width="3" height="92"></td><td class=tgr><img src="pipe1.png" width="3" height="92"></td><td class=tgr><img src="pipe1.png" width="3" height="90"></td><td class=tgr><img src="pipe1.png" width="3" height="86"></td>
+<td class=tgr><img src="pipe1.png" width="3" height="82"></td><td class=tgr><img src="pipe1.png" width="3" height="80"></td><td class=tgr><img src="pipe1.png" width="3" height="79"></td><td class=tgr><img src="pipe1.png" width="3" height="79"></td><td class=tgr><img src="pipe1.png" width="3" height="78"></td><td class=tgr><img src="pipe1.png" width="3" height="78"></td>
+<td class=tgr><img src="pipe1.png" width="3" height="77"></td><td class=tgr><img src="pipe1.png" width="3" height="75"></td><td class=tgr><img src="pipe1.png" width="3" height="72"></td><td class=tgr><img src="pipe1.png" width="3" height="70"></td><td class=tgr><img src="pipe1.png" width="3" height="70"></td><td class=tgr><img src="pipe1.png" width="3" height="69"></td>
+<td class=tgr><img src="pipe1.png" width="3" height="68"></td><td class=tgr><img src="pipe1.png" width="3" height="66"></td><td class=tgr><img src="pipe1.png" width="3" height="64"></td><td class=tgr><img src="pipe1.png" width="3" height="63"></td><td class=tgr><img src="pipe1.png" width="3" height="62"></td><td class=tgr><img src="pipe1.png" width="3" height="63"></td>
+<td class=tgr><img src="pipe1.png" width="3" height="65"></td><td class=tgr><img src="pipe1.png" width="3" height="67"></td><td class=tgr><img src="pipe1.png" width="3" height="67"></td><td class=tgr><img src="pipe1.png" width="3" height="66"></td><td class=tgr><img src="pipe1.png" width="3" height="64"></td><td class=tgr><img src="pipe1.png" width="3" height="63"></td>
+<td class=tgr><img src="pipe2.png" width="3" height="63"></td><td class=tgr><img src="pipe2.png" width="3" height="64"></td><td class=tgr><img src="pipe2.png" width="3" height="66"></td><td class=tgr><img src="pipe2.png" width="3" height="67"></td><td class=tgr><img src="pipe2.png" width="3" height="68"></td><td class=tgr><img src="pipe2.png" width="3" height="69"></td>
+<td class=tgr><img src="pipe2.png" width="3" height="70"></td><td class=tgr><img src="pipe2.png" width="3" height="71"></td><td class=tgr><img src="pipe2.png" width="3" height="72"></td><td class=tgr><img src="pipe2.png" width="3" height="71"></td><td class=tgr><img src="pipe2.png" width="3" height="70"></td><td class=tgr><img src="pipe2.png" width="3" height="70"></td>
+<td class=tgr><img src="pipe2.png" width="3" height="69"></td><td class=tgr><img src="pipe2.png" width="3" height="70"></td><td class=tgr><img src="pipe2.png" width="3" height="70"></td><td class=tgr><img src="pipe2.png" width="3" height="72"></td><td class=tgr><img src="pipe2.png" width="3" height="72"></td><td class=tgr><img src="pipe2.png" width="3" height="72"></td>
+<td class=tgr><img src="pipe2.png" width="3" height="71"></td><td class=tgr><img src="pipe2.png" width="3" height="71"></td><td class=tgr><img src="pipe2.png" width="3" height="73"></td><td class=tgr><img src="pipe2.png" width="3" height="74"></td><td class=tgr><img src="pipe2.png" width="3" height="74"></td><td class=tgr><img src="pipe2.png" width="3" height="74"></td>
+<td class=tgr><img src="pipe2.png" width="3" height="75"></td><td class=tgr><img src="pipe2.png" width="3" height="76"></td><td class=tgr><img src="pipe2.png" width="3" height="77"></td><td class=tgr><img src="pipe2.png" width="3" height="78"></td><td class=tgr><img src="pipe2.png" width="3" height="79"></td><td class=tgr><img src="pipe2.png" width="3" height="80"></td>
+<td class=tgr><img src="pipe2.png" width="3" height="80"></td><td class=tgr><img src="pipe2.png" width="3" height="80"></td><td class=tgr><img src="pipe2.png" width="3" height="80"></td><td class=tgr><img src="pipe2.png" width="3" height="81"></td><td class=tgr><img src="pipe2.png" width="3" height="81"></td><td class=tgr><img src="pipe2.png" width="3" height="83"></td>
+<td class=tgr><img src="pipe3.png" width="3" height="85"></td><td class=tgr><img src="pipe3.png" width="3" height="88"></td><td class=tgr><img src="pipe3.png" width="3" height="91"></td><td class=tgr><img src="pipe3.png" width="3" height="93"></td><td class=tgr><img src="pipe3.png" width="3" height="94"></td><td class=tgr><img src="pipe3.png" width="3" height="95"></td>
+<td class=tgr><img src="pipe3.png" width="3" height="96"></td><td class=tgr><img src="pipe3.png" width="3" height="98"></td><td class=tgr><img src="pipe3.png" width="3" height="99"></td><td class=tgr><img src="pipe3.png" width="3" height="100"></td><td class=tgr><img src="pipe3.png" width="3" height="101"></td><td class=tgr><img src="pipe3.png" width="3" height="103"></td>
+<td class=tgr><img src="pipe3.png" width="3" height="106"></td><td class=tgr><img src="pipe3.png" width="3" height="111"></td><td class=tgr><img src="pipe3.png" width="3" height="114"></td><td class=tgr><img src="pipe3.png" width="3" height="117"></td><td class=tgr><img src="pipe3.png" width="3" height="118"></td><td class=tgr><img src="pipe3.png" width="3" height="119"></td>
+<td class=tgr><img src="pipe3.png" width="3" height="119"></td><td class=tgr><img src="pipe3.png" width="3" height="120"></td><td class=tgr><img src="pipe3.png" width="3" height="120"></td><td class=tgr><img src="pipe3.png" width="3" height="120"></td><td class=tgr><img src="pipe3.png" width="3" height="119"></td><td class=tgr><img src="pipe3.png" width="3" height="116"></td>
+<td class=tgr><img src="pipe3.png" width="3" height="114"></td><td class=tgr><img src="pipe3.png" width="3" height="113"></td><td class=tgr><img src="pipe3.png" width="3" height="114"></td><td class=tgr><img src="pipe3.png" width="3" height="116"></td><td class=tgr><img src="pipe3.png" width="3" height="117"></td><td class=tgr><img src="pipe3.png" width="3" height="118"></td>
+<td class=tgr><img src="pipe3.png" width="3" height="118"></td><td class=tgr><img src="pipe3.png" width="3" height="117"></td><td class=tgr><img src="pipe3.png" width="3" height="115"></td><td class=tgr><img src="pipe3.png" width="3" height="113"></td><td class=tgr><img src="pipe3.png" width="3" height="111"></td><td class=tgr><img src="pipe3.png" width="3" height="109"></td>
+<td class=tgr><img src="pipe4.png" width="3" height="108"></td><td class=tgr><img src="pipe4.png" width="3" height="106"></td><td class=tgr><img src="pipe4.png" width="3" height="104"></td><td class=tgr><img src="pipe4.png" width="3" height="101"></td><td class=tgr><img src="pipe4.png" width="3" height="98"></td><td class=tgr><img src="pipe4.png" width="3" height="96"></td>
+<td class=tgr><img src="pipe4.png" width="3" height="93"></td><td class=tgr><img src="pipe4.png" width="3" height="91"></td><td class=tgr><img src="pipe4.png" width="3" height="90"></td><td class=tgr><img src="pipe4.png" width="3" height="90"></td><td class=tgr><img src="pipe4.png" width="3" height="91"></td><td class=tgr><img src="pipe4.png" width="3" height="91"></td>
+<td class=tgr><img src="pipe4.png" width="3" height="90"></td><td class=tgr><img src="pipe4.png" width="3" height="90"></td><td class=tgr><img src="pipe4.png" width="3" height="91"></td><td class=tgr><img src="pipe4.png" width="3" height="93"></td><td class=tgr><img src="pipe4.png" width="3" height="96"></td><td class=tgr><img src="pipe4.png" width="3" height="97"></td>
+<td class=tgr><img src="pipe4.png" width="3" height="98"></td><td class=tgr><img src="pipe4.png" width="3" height="98"></td><td class=tgr><img src="pipe4.png" width="3" height="96"></td><td class=tgr><img src="pipe4.png" width="3" height="94"></td><td class=tgr><img src="pipe4.png" width="3" height="94"></td><td class=tgr><img src="pipe4.png" width="3" height="94"></td>
+<td class=tgr><img src="pipe4.png" width="3" height="94"></td><td class=tgr><img src="pipe4.png" width="3" height="94"></td><td class=tgr><img src="pipe4.png" width="3" height="93"></td><td class=tgr><img src="pipe4.png" width="3" height="93"></td><td class=tgr><img src="pipe4.png" width="3" height="93"></td><td class=tgr><img src="pipe4.png" width="3" height="94"></td>
+<td class=tgr><img src="pipe4.png" width="3" height="94"></td><td class=tgr><img src="pipe4.png" width="3" height="93"></td><td class=tgr><img src="pipe4.png" width="3" height="91"></td><td class=tgr><img src="pipe4.png" width="3" height="91"></td><td class=tgr><img src="pipe4.png" width="3" height="91"></td><td class=tgr><img src="pipe4.png" width="3" height="92"></td>
+</tr><tr class=s1>
+<td colspan=6>4.4%</td>
+<td colspan=6>4.3%</td>
+<td colspan=6>3.7%</td>
+<td colspan=6>3.4%</td>
+<td colspan=6>3.0%</td>
+<td colspan=6>3.1%</td>
+<td colspan=6>3.1%</td>
+<td colspan=6>3.3%</td>
+<td colspan=6>3.3%</td>
+<td colspan=6>3.4%</td>
+<td colspan=6>3.6%</td>
+<td colspan=6>3.8%</td>
+<td colspan=6>4.3%</td>
+<td colspan=6>4.7%</td>
+<td colspan=6>5.4%</td>
+<td colspan=6><span class=s2>5.6%</span></td>
+<td colspan=6>5.4%</td>
+<td colspan=6>5.4%</td>
+<td colspan=6>4.8%</td>
+<td colspan=6>4.3%</td>
+<td colspan=6>4.4%</td>
+<td colspan=6>4.5%</td>
+<td colspan=6>4.4%</td>
+<td colspan=6>4.3%</td>
+</tr><tr class=s3>
+<td colspan=6 class=v4>0</td>
+<td colspan=6 class=v4>1</td>
+<td colspan=6 class=v4>2</td>
+<td colspan=6 class=v4>3</td>
+<td colspan=6 class=v4>4</td>
+<td colspan=6 class=v4>5</td>
+<td colspan=6 class=v4>6</td>
+<td colspan=6 class=v4>7</td>
+<td colspan=6 class=v4>8</td>
+<td colspan=6 class=v4>9</td>
+<td colspan=6 class=v4>10</td>
+<td colspan=6 class=v4>11</td>
+<td colspan=6 class=v4>12</td>
+<td colspan=6 class=v4>13</td>
+<td colspan=6 class=v4>14</td>
+<td colspan=6 class=v1>15</td>
+<td colspan=6 class=v4>16</td>
+<td colspan=6 class=v4>17</td>
+<td colspan=6 class=v4>18</td>
+<td colspan=6 class=v4>19</td>
+<td colspan=6 class=v4>20</td>
+<td colspan=6 class=v4>21</td>
+<td colspan=6 class=v4>22</td>
+<td colspan=6 class=v4>23</td>
+</tr></table><br><span class=txt2>Recorded in U.S. Central Time (GMT -6)</span><br><br>
+<a name="weekl"></a>
+<span class=txt1><hr width="90%"><br></span>
+<h3>Weekly channel utilization</h3>
+<Table cellspacing=1 cellpadding=0><tr class=s1 valign=bottom>
+<td class=tgr><img src="pipe1.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="74"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="68"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="61"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="55"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="53"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="53"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="55"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="59"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="64"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="69"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="74"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="79"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="84"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="90"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="92"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="93"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="91"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="86"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="79"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="76"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="76"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="79"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="79"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="76"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="71"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="65"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="58"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="55"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="54"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="55"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="56"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="56"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="56"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="59"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="64"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="71"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="79"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="87"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="93"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="95"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="92"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="85"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="79"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="75"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="75"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="74"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="74"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="72"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="69"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="62"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="55"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="51"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="51"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="52"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="54"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="57"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="62"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="67"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="73"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="79"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="86"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="94"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="99"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="100"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="95"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="87"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="81"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="78"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="78"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="75"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="72"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="66"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="60"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="56"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="54"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="56"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="59"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="62"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="64"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="65"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="68"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="74"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="83"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="92"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="96"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="95"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="89"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="82"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="75"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="73"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="69"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="64"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="58"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="55"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="54"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="55"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="58"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="60"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="61"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="63"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="67"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="75"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="84"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="90"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="92"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="90"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="85"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="79"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="76"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="75"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="75"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="73"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="71"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="67"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="63"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="57"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="52"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="49"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="51"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="55"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="58"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="59"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="59"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="61"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="64"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="69"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="74"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="81"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="86"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="89"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="87"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="84"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="80"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="78"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="78"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="75"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="72"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="68"></td>
+<td class=tgr><img src="pipe1.png" width="2" height="63"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="58"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="55"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="54"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="56"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="60"></td>
+<td class=tgr><img src="pipe2.png" width="2" height="66"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="74"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="83"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="90"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="91"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="88"></td>
+<td class=tgr><img src="pipe3.png" width="2" height="85"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="81"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="79"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="77"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="75"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="75"></td>
+<td class=tgr><img src="pipe4.png" width="2" height="76"></td>
+</tr><tr class=s3>
+<td colspan=24 class=v1><b>Monday<br>14.6%</b></td>
+<td colspan=24 class=v4>Tuesday<br>14.1%</td>
+<td colspan=24 class=v4>Wednesday<br>14.5%</td>
+<td colspan=24 class=v4>Thursday<br>14.5%</td>
+<td colspan=24 class=v4>Friday<br>14.1%</td>
+<td colspan=24 class=v4>Saturday<br>13.7%</td>
+<td colspan=24 class=v4>Sunday<br>14.5%</td>
+</tr></table><br>
+<a name="user"></a>
+<span class=txt1><hr width="90%"><br></span>
+<h3>30 most talkative nicks</h3>
+<Table border=0 cellspacing=0 cellpadding=1 class=t2>
+<tr class=t1><td class=tinv>&nbsp;</td><td class=v1> Nick </td>
+<td class=v2> Line Count </td>
+<td class=v3> Random Quote </td></tr>
+<tr><td align="right" class=v2>1</td>
+<td class=v4><b>Snoteye</b></td>
+<td class=v5><img src="pipe1.png" height="15" width="18" alt="24171"><img src="pipe2.png" height="15" width="26" alt="35283"><img src="pipe3.png" height="15" width="50" alt="66536"><img src="pipe4.png" height="15" width="6" alt="8008"> <b>133998</b></td>
+<td class=t5 bgcolor="#1B1B1B"> "... I keep a locked diary under my bed." </td>
+</tr>
+<tr><td align="right" class=v2>2</td>
+<td class=v4>Kotenku</td>
+<td class=v5><img src="pipe1.png" height="15" width="13" alt="16971"><img src="pipe2.png" height="15" width="1" alt="1714"><img src="pipe3.png" height="15" width="20" alt="27417"><img src="pipe4.png" height="15" width="25" alt="32676"> 78778</td>
+<td class=t5 bgcolor="#1B1B1B"> "I played that years ago." </td>
+</tr>
+<tr><td align="right" class=v2>3</td>
+<td class=v4>Conan</td>
+<td class=v5><img src="pipe1.png" height="15" width="18" alt="23715"><img src="pipe2.png" height="15" width="6" alt="8400"><img src="pipe3.png" height="15" width="14" alt="18192"><img src="pipe4.png" height="15" width="21" alt="28442"> 78749</td>
+<td class=t5 bgcolor="#1B1B1B"> "You can still be effeminate and still be badass" </td>
+</tr>
+<tr><td align="right" class=v2>4</td>
+<td class=v4>Nickless</td>
+<td class=v5><img src="pipe1.png" height="15" width="21" alt="28761"><img src="pipe2.png" height="15" width="20" alt="25951"><img src="pipe3.png" height="15" width="5" alt="7237"><img src="pipe4.png" height="15" width="13" alt="16752"> 78701</td>
+<td class=t5 bgcolor="#1B1B1B"> "22 str is ridiculous. I don't think Naga even had that XD" </td>
+</tr>
+<tr><td align="right" class=v2>5</td>
+<td class=v4>ExileStrife</td>
+<td class=v5><img src="pipe1.png" height="15" width="10" alt="13677"><img src="pipe2.png" height="15" width="11" alt="15040"><img src="pipe3.png" height="15" width="18" alt="23950"><img src="pipe4.png" height="15" width="16" alt="20654"> 73321</td>
+<td class=t5 bgcolor="#1B1B1B"> "::( Server Online : 0 / 50 players )::" </td>
+</tr>
+<tr><td align="right" class=v2>6</td>
+<td class=v4>Wern8</td>
+<td class=v5><img src="pipe1.png" height="15" width="22" alt="29685"><img src="pipe2.png" height="15" width="13" alt="17427"><img src="pipe3.png" height="15" width="1" alt="1289"><img src="pipe4.png" height="15" width="15" alt="20232"> 68633</td>
+<td class=t5 bgcolor="#1B1B1B"> "Coldburn, no I'm always on FD" </td>
+</tr>
+<tr><td align="right" class=v2>7</td>
+<td class=v4>lovethesuit</td>
+<td class=v5><img src="pipe1.png" height="15" width="18" alt="23884"><img src="pipe2.png" height="15" width="2" alt="2705"><img src="pipe3.png" height="15" width="14" alt="19088"><img src="pipe4.png" height="15" width="15" alt="19795"> 65472</td>
+<td class=t5 bgcolor="#1B1B1B"> "Oh, a good one from Thrawn." </td>
+</tr>
+<tr><td align="right" class=v2>8</td>
+<td class=v4>ninelives</td>
+<td class=v5><img src="pipe1.png" height="15" width="16" alt="21289"><img src="pipe2.png" height="15" width="15" alt="20558"><img src="pipe3.png" height="15" width="2" alt="2802"><img src="pipe4.png" height="15" width="15" alt="19860"> 64509</td>
+<td class=t5 bgcolor="#1B1B1B"> "And the Spells aren't that great." </td>
+</tr>
+<tr><td align="right" class=v2>9</td>
+<td class=v4>TRB</td>
+<td class=v5><img src="pipe1.png" height="15" width="11" alt="14488"><img src="pipe2.png" height="15" width="6" alt="8164"><img src="pipe3.png" height="15" width="12" alt="15869"><img src="pipe4.png" height="15" width="16" alt="21471"> 59992</td>
+<td class=t5 bgcolor="#1B1B1B"> "<a href="http://www.escapefromunderdark.com/forum/vietopic.php?p=lazybum" class=t5 target="_blank">http://www.escapefromunderdark.com/forum/vietopic.php?p=lazybum</a>" </td>
+</tr>
+<tr><td align="right" class=v2>10</td>
+<td class=v4>DangerousDan</td>
+<td class=v5><img src="pipe1.png" height="15" width="4" alt="4887"><img src="pipe2.png" height="15" width="12" alt="16004"><img src="pipe3.png" height="15" width="18" alt="24362"><img src="pipe4.png" height="15" width="7" alt="9793"> 55046</td>
+<td class=t5 bgcolor="#1B1B1B"> "He would just go to KinkyKingdom, already." </td>
+</tr>
+<tr><td align="right" class=v2>11</td>
+<td class=v4>Kiaring</td>
+<td class=v5><img src="pipe1.png" height="15" width="5" alt="6305"><img src="pipe2.png" height="15" width="7" alt="9659"><img src="pipe3.png" height="15" width="16" alt="21328"><img src="pipe4.png" height="15" width="13" alt="17464"> 54756</td>
+<td class=t5 bgcolor="#1B1B1B"> "If you subdue someone, emote tying their wrists with a rope." </td>
+</tr>
+<tr><td align="right" class=v2>12</td>
+<td class=v4>Coldburn</td>
+<td class=v5><img src="pipe1.png" height="15" width="5" alt="7158"><img src="pipe2.png" height="15" width="15" alt="19502"><img src="pipe3.png" height="15" width="16" alt="22175"><img src="pipe4.png" height="15" width="5" alt="5572"> 54407</td>
+<td class=t5 bgcolor="#1B1B1B"> "Only like 4 groups have space centres in the world, right? United States..." </td>
+</tr>
+<tr><td align="right" class=v2>13</td>
+<td class=v4>Requiem</td>
+<td class=v5><img src="pipe1.png" height="15" width="4" alt="5113"><img src="pipe2.png" height="15" width="6" alt="8733"><img src="pipe3.png" height="15" width="17" alt="22631"><img src="pipe4.png" height="15" width="13" alt="16725"> 53202</td>
+<td class=t5 bgcolor="#1B1B1B"> "Talir&gt; What are you app'ing for, Req?&lt;--Guardians." </td>
+</tr>
+<tr><td align="right" class=v2>14</td>
+<td class=v4>Cruzel</td>
+<td class=v5><img src="pipe1.png" height="15" width="5" alt="7202"><img src="pipe2.png" height="15" width="6" alt="7495"><img src="pipe3.png" height="15" width="10" alt="12965"><img src="pipe4.png" height="15" width="14" alt="18888"> 46550</td>
+<td class=t5 bgcolor="#1B1B1B"> "I prosecuted a trial without being in the watch." </td>
+</tr>
+<tr><td align="right" class=v2>15</td>
+<td class=v4>RealityDevoid</td>
+<td class=v5><img src="pipe1.png" height="15" width="11" alt="14501"><img src="pipe2.png" height="15" width="13" alt="17002"><img src="pipe3.png" height="15" width="2" alt="2782"><img src="pipe4.png" height="15" width="8" alt="11818"> 46103</td>
+<td class=t5 bgcolor="#1B1B1B"> "Your mum is underrated" </td>
+</tr>
+<tr><td align="right" class=v2>16</td>
+<td class=v4>MithrilDragon</td>
+<td class=v5><img src="pipe1.png" height="15" width="8" alt="11244"><img src="pipe2.png" height="15" width="3" alt="2912"><img src="pipe3.png" height="15" width="9" alt="12167"><img src="pipe4.png" height="15" width="14" alt="19313"> 45636</td>
+<td class=t5 bgcolor="#1B1B1B"> "Ned Kelly was such a badass." </td>
+</tr>
+<tr><td align="right" class=v2>17</td>
+<td class=v4>wcsherry</td>
+<td class=v5><img src="pipe1.png" height="15" width="11" alt="15090"><img src="pipe2.png" height="15" width="8" alt="10026"><img src="pipe3.png" height="15" width="7" alt="9946"><img src="pipe4.png" height="15" width="7" alt="9389"> 44451</td>
+<td class=t5 bgcolor="#1B1B1B"> "Sewertown smells worse!" </td>
+</tr>
+<tr><td align="right" class=v2>18</td>
+<td class=v4>Halfbrood</td>
+<td class=v5><img src="pipe1.png" height="15" width="8" alt="10221"><img src="pipe2.png" height="15" width="13" alt="18143"><img src="pipe3.png" height="15" width="9" alt="11915"><img src="pipe4.png" height="15" width="3" alt="3838"> 44117</td>
+<td class=t5 bgcolor="#1B1B1B"> "Well, I f****ing hope you're doing it." </td>
+</tr>
+<tr><td align="right" class=v2>19</td>
+<td class=v4>Den</td>
+<td class=v5><img src="pipe1.png" height="15" width="13" alt="17825"><img src="pipe2.png" height="15" width="13" alt="17553"><img src="pipe3.png" height="15" width="1" alt="886"><img src="pipe4.png" height="15" width="6" alt="7808"> 44072</td>
+<td class=t5 bgcolor="#1B1B1B"> "Did starryice hook you up?" </td>
+</tr>
+<tr><td align="right" class=v2>20</td>
+<td class=v4>Linelle</td>
+<td class=v5><img src="pipe1.png" height="15" width="5" alt="6750"><img src="pipe2.png" height="15" width="11" alt="14700"><img src="pipe3.png" height="15" width="15" alt="19887"><img src="pipe4.png" height="15" width="2" alt="2542"> 43879</td>
+<td class=t5 bgcolor="#1B1B1B"> "I miss the old times when this was all new to me" </td>
+</tr>
+<tr><td align="right" class=v2>21</td>
+<td class=v4>MrSelfDestruct</td>
+<td class=v5><img src="pipe1.png" height="15" width="5" alt="6354"><img src="pipe2.png" height="15" width="3" alt="3927"><img src="pipe3.png" height="15" width="14" alt="19550"><img src="pipe4.png" height="15" width="10" alt="13370"> 43201</td>
+<td class=t5 bgcolor="#1B1B1B"> "i havent seen him since he and my bard died together on orogs, just ..." </td>
+</tr>
+<tr><td align="right" class=v2>22</td>
+<td class=v4>Naga</td>
+<td class=v5><img src="pipe1.png" height="15" width="4" alt="5557"><img src="pipe2.png" height="15" width="8" alt="10792"><img src="pipe3.png" height="15" width="13" alt="16936"><img src="pipe4.png" height="15" width="6" alt="8824"> 42109</td>
+<td class=t5 bgcolor="#1B1B1B"> "some of us hate soccer!" </td>
+</tr>
+<tr><td align="right" class=v2>23</td>
+<td class=v4>RwG</td>
+<td class=v5><img src="pipe1.png" height="15" width="3" alt="4462"><img src="pipe2.png" height="15" width="5" alt="6188"><img src="pipe3.png" height="15" width="12" alt="15686"><img src="pipe4.png" height="15" width="11" alt="15378"> 41714</td>
+<td class=t5 bgcolor="#1B1B1B"> "[walks of pocketing loot]" </td>
+</tr>
+<tr><td align="right" class=v2>24</td>
+<td class=v4>mort</td>
+<td class=v5><img src="pipe1.png" height="15" width="2" alt="2769"><img src="pipe2.png" height="15" width="2" alt="2468"><img src="pipe3.png" height="15" width="8" alt="11188"><img src="pipe4.png" height="15" width="14" alt="18654"> 35079</td>
+<td class=t5 bgcolor="#1B1B1B"> "Liberals is more power to the state, like state-provided education, state-p..." </td>
+</tr>
+<tr><td align="right" class=v2>25</td>
+<td class=v4>Ebok</td>
+<td class=v5><img src="pipe1.png" height="15" width="6" alt="8631"><img src="pipe2.png" height="15" width="3" alt="3885"><img src="pipe3.png" height="15" width="7" alt="9476"><img src="pipe4.png" height="15" width="10" alt="13083"> 35075</td>
+<td class=t5 bgcolor="#1B1B1B"> "Is this detailed anywhere on the forum yet?" </td>
+</tr>
+<tr><td align="right" class=v2>26</td>
+<td class=v4>Staring_Death</td>
+<td class=v5><img src="pipe1.png" height="15" width="2" alt="3177"><img src="pipe2.png" height="15" width="4" alt="5165"><img src="pipe3.png" height="15" width="10" alt="12780"><img src="pipe4.png" height="15" width="10" alt="13632"> 34754</td>
+<td class=t5 bgcolor="#1B1B1B"> "I'm guessing it was resetted?" </td>
+</tr>
+<tr><td align="right" class=v2>27</td>
+<td class=v4>Fish</td>
+<td class=v5><img src="pipe2.png" height="15" width="7" alt="8805"><img src="pipe3.png" height="15" width="11" alt="14644"><img src="pipe4.png" height="15" width="7" alt="9793"> 33473</td>
+<td class=t5 bgcolor="#1B1B1B"> "yeah NC whats that in sterling?" </td>
+</tr>
+<tr><td align="right" class=v2>28</td>
+<td class=v4>Sternhund</td>
+<td class=v5><img src="pipe1.png" height="15" width="8" alt="11284"><img src="pipe2.png" height="15" width="2" alt="2660"><img src="pipe3.png" height="15" width="6" alt="7390"><img src="pipe4.png" height="15" width="8" alt="11322"> 32656</td>
+<td class=t5 bgcolor="#1B1B1B"> "If that key combo doesn't work let me know and I'll tell you about a line ..." </td>
+</tr>
+<tr><td align="right" class=v2>29</td>
+<td class=v4>Ladocicea</td>
+<td class=v5><img src="pipe1.png" height="15" width="2" alt="2356"><img src="pipe2.png" height="15" width="6" alt="8768"><img src="pipe3.png" height="15" width="11" alt="13877"><img src="pipe4.png" height="15" width="5" alt="7564"> 32565</td>
+<td class=t5 bgcolor="#1B1B1B"> "Super Hanz annoys me." </td>
+</tr>
+<tr><td align="right" class=v2>30</td>
+<td class=v4>Krunto</td>
+<td class=v5><img src="pipe1.png" height="15" width="8" alt="10893"><img src="pipe2.png" height="15" width="5" alt="6125"><img src="pipe3.png" height="15" width="5" alt="7448"><img src="pipe4.png" height="15" width="6" alt="8040"> 32506</td>
+<td class=t5 bgcolor="#1B1B1B"> "wern got spell failure" </td>
+</tr>
+</table>
+<br><h5>Those who didn't reach the Top 30</h5>
+<Table border=0 cellspacing=0 cellpadding=1 class=s4>
+<tr class=v5>
+<td> putrid_plum (31766) </td>
+<td> Eraamion (31068) </td>
+<td> Vlaid (30586) </td>
+<td> Jasede (29755) </td>
+</tr>
+<tr class=v5>
+<td> Canzah (29536) </td>
+<td> RobDeHauteville (28733) </td>
+<td> Inquisitor (27410) </td>
+<td> Wiggyboy (27177) </td>
+</tr>
+<tr class=v5>
+<td> MexicanGunslinger (26595) </td>
+<td> TheBeggar (26150) </td>
+<td> DeputyCool (25962) </td>
+<td> Caddies (24624) </td>
+</tr>
+<tr class=v5>
+<td> DrDragon (23416) </td>
+<td> thomas_IRC (22686) </td>
+<td> metropakt (22645) </td>
+<td> MadCaddies (22472) </td>
+</tr>
+<tr class=v5>
+<td> Sherry (22385) </td>
+<td> Cluckyx (22113) </td>
+<td> PanamaSmokeTree (20302) </td>
+<td> Terry (20247) </td>
+</tr>
+<tr class=v5>
+<td> daJollyMole (19587) </td>
+<td> MrGrendel (19212) </td>
+<td> Mylin|TrAnCeD (18835) </td>
+<td> Caster (18835) </td>
+</tr>
+<tr class=v5>
+<td> Oroborous (18754) </td>
+<td> Garem (17901) </td>
+<td> Darkness2 (16698) </td>
+<td> Mashai (16605) </td>
+</tr>
+<tr class=v5>
+<td> Johannes (16598) </td>
+<td> Skrillix (16239) </td>
+<td> Mr_BBQ (16170) </td>
+<td> Jarpie (16135) </td>
+</tr>
+<tr class=v5>
+<td> Griff|Dam (15989) </td>
+<td> Thrawn (15756) </td>
+<td> Magister (15473) </td>
+<td> Ommadawn (15411) </td>
+</tr>
+<tr class=v5>
+<td> Calculor (14957) </td>
+<td> DruQks (14882) </td>
+<td> derflaro (14836) </td>
+<td> Howland (14375) </td>
+</tr>
+<tr class=v5>
+<td> core (14074) </td>
+<td> josi (13932) </td>
+<td> Elmo (13445) </td>
+<td> Kroffz (13087) </td>
+</tr>
+<tr class=v5>
+<td> OskarMaxon (12671) </td>
+<td> MisterPAIN (11555) </td>
+<td> djspectre (11181) </td>
+<td> ScottyB (11119) </td>
+</tr>
+<tr class=v5>
+<td> PrettyHateMachine (10740) </td>
+<td> daemonic-daz (10669) </td>
+<td> Mornington (10645) </td>
+<td> Sabaron (10264) </td>
+</tr>
+<tr class=v5>
+<td> Disco_Spoon (10219) </td>
+<td> pyth (10162) </td>
+<td> Secutor (10131) </td>
+<td> Scalebane (9751) </td>
+</tr>
+<tr class=v5>
+<td> Emryuk (9586) </td>
+<td> Arkov (9571) </td>
+<td> Heltec (9544) </td>
+<td> cawila (9467) </td>
+</tr>
+</table><br>
+<span class=txt2>There were also 6011 nicks who mainly idled...</span><br>
+<br>
+<a name="time"></a>
+<span class=txt1><hr width="90%"><br></span>
+<h3>Time of day stats</h3>
+<Table cellspacing=0 cellpadding=1 class=t3>
+<tr class=t1><td class=tinv>&nbsp;</td>
+<td class=v1><center>Nightcrawlers<br><span class=t6>(Hours 0-6)</span></center></td>
+<td class=v2><center>Early birds<br><span class=t6>(Hours 6-12)</span></center></td>
+<td class=v3><center>Afternoon shift<br><span class=t6>(Hours 12-18)</span></center></td>
+<td class=v1><center>Evening chatters<br><span class=t6>(Hours 18-24)</span></center></td>
+<tr><td class=v2>1</td><td class=v4>Wern8 - 29685<br><img src="pipe1.png" height="5" width="45"></td><td class=v5>Snoteye - 35283<br><img src="pipe2.png" height="5" width="53"></td>
+<td class=v6>Snoteye - 66536<br><img src="pipe3.png" height="5" width="100"></td><td class=v4>Kotenku - 32676<br><img src="pipe4.png" height="5" width="49"></td></tr>
+<tr><td class=v2>2</td><td class=v4>Nickless - 28761<br><img src="pipe1.png" height="5" width="43"></td><td class=v5>Nickless - 25951<br><img src="pipe2.png" height="5" width="39"></td>
+<td class=v6>Kotenku - 27417<br><img src="pipe3.png" height="5" width="41"></td><td class=v4>Conan - 28442<br><img src="pipe4.png" height="5" width="43"></td></tr>
+<tr><td class=v2>3</td><td class=v4>Snoteye - 24171<br><img src="pipe1.png" height="5" width="36"></td><td class=v5>ninelives - 20558<br><img src="pipe2.png" height="5" width="31"></td>
+<td class=v6>DangerousDan - 24362<br><img src="pipe3.png" height="5" width="37"></td><td class=v4>TRB - 21471<br><img src="pipe4.png" height="5" width="32"></td></tr>
+<tr><td class=v2>4</td><td class=v4>lovethesuit - 23884<br><img src="pipe1.png" height="5" width="36"></td><td class=v5>Coldburn - 19502<br><img src="pipe2.png" height="5" width="29"></td>
+<td class=v6>ExileStrife - 23950<br><img src="pipe3.png" height="5" width="36"></td><td class=v4>ExileStrife - 20654<br><img src="pipe4.png" height="5" width="31"></td></tr>
+<tr><td class=v2>5</td><td class=v4>Conan - 23715<br><img src="pipe1.png" height="5" width="36"></td><td class=v5>Halfbrood - 18143<br><img src="pipe2.png" height="5" width="27"></td>
+<td class=v6>Requiem - 22631<br><img src="pipe3.png" height="5" width="34"></td><td class=v4>Wern8 - 20232<br><img src="pipe4.png" height="5" width="30"></td></tr>
+<tr><td class=v2>6</td><td class=v4>ninelives - 21289<br><img src="pipe1.png" height="5" width="32"></td><td class=v5>Den - 17553<br><img src="pipe2.png" height="5" width="26"></td>
+<td class=v6>Coldburn - 22175<br><img src="pipe3.png" height="5" width="33"></td><td class=v4>ninelives - 19860<br><img src="pipe4.png" height="5" width="30"></td></tr>
+<tr><td class=v2>7</td><td class=v4>Den - 17825<br><img src="pipe1.png" height="5" width="27"></td><td class=v5>Wern8 - 17427<br><img src="pipe2.png" height="5" width="26"></td>
+<td class=v6>Kiaring - 21328<br><img src="pipe3.png" height="5" width="32"></td><td class=v4>lovethesuit - 19795<br><img src="pipe4.png" height="5" width="30"></td></tr>
+<tr><td class=v2>8</td><td class=v4>Kotenku - 16971<br><img src="pipe1.png" height="5" width="26"></td><td class=v5>RealityDevoid - 17002<br><img src="pipe2.png" height="5" width="26"></td>
+<td class=v6>Linelle - 19887<br><img src="pipe3.png" height="5" width="30"></td><td class=v4>MithrilDragon - 19313<br><img src="pipe4.png" height="5" width="29"></td></tr>
+<tr><td class=v2>9</td><td class=v4>wcsherry - 15090<br><img src="pipe1.png" height="5" width="23"></td><td class=v5>DangerousDan - 16004<br><img src="pipe2.png" height="5" width="24"></td>
+<td class=v6>MrSelfDestruct - 19550<br><img src="pipe3.png" height="5" width="29"></td><td class=v4>Cruzel - 18888<br><img src="pipe4.png" height="5" width="28"></td></tr>
+<tr><td class=v2>10</td><td class=v4>RealityDevoid - 14501<br><img src="pipe1.png" height="5" width="22"></td><td class=v5>Canzah - 15046<br><img src="pipe2.png" height="5" width="23"></td>
+<td class=v6>lovethesuit - 19088<br><img src="pipe3.png" height="5" width="29"></td><td class=v4>mort - 18654<br><img src="pipe4.png" height="5" width="28"></td></tr>
+</table><br><span class=txt2>Recorded in U.S. Central Time (GMT -6)</span><br><br>
+<a name="activ"></a>
+<span class=txt1><hr width="90%"><br></span>
+<h3>Activity distribution</h3>
+<h4>10/2007 - 9/2008</h4>
+<Table border=0 cellspacing=0 cellpadding=1 class=t6>
+<tr class=t1>
+<td class=v1>Lines per day</td>
+<td class=v2>Number of days</td>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#412B2C">&nbsp;</td><td class=tinv>8000..8499</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="2" height=17 class=ad> 1 <i>(0.3%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#462021">&nbsp;</td><td class=tinv>7500..7999</td></tr></table></td>
+<td align=left class=v5> 0 <i>(0%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#4B1616">&nbsp;</td><td class=tinv>7000..7499</td></tr></table></td>
+<td align=left class=v5> 0 <i>(0%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#500B0B">&nbsp;</td><td class=tinv>6500..6999</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="2" height=17 class=ad> 1 <i>(0.3%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#550001">&nbsp;</td><td class=tinv>6000..6499</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="6" height=17 class=ad> 3 <i>(0.9%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#600001">&nbsp;</td><td class=tinv>5500..5999</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="23" height=17 class=ad> 11 <i>(3.2%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#6C0001">&nbsp;</td><td class=tinv>5000..5499</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="35" height=17 class=ad> 17 <i>(5.0%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#770001">&nbsp;</td><td class=tinv>4500..4999</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="64" height=17 class=ad> 31 <i>(9.0%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#820001">&nbsp;</td><td class=tinv>4000..4499</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="74" height=17 class=ad> 36 <i>(10%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#850001">&nbsp;</td><td class=tinv>3500..3999</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="107" height=17 class=ad> 52 <i>(15%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#870001">&nbsp;</td><td class=tinv>3000..3499</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="150" height=17 class=ad> 73 <i>(21%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#880001">&nbsp;</td><td class=tinv>2500..2999</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="109" height=17 class=ad> 53 <i>(15%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#8A0001">&nbsp;</td><td class=tinv>2000..2499</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="68" height=17 class=ad> 33 <i>(9.6%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#930001">&nbsp;</td><td class=tinv>1500..1999</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="45" height=17 class=ad> 22 <i>(6.4%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#9F0001">&nbsp;</td><td class=tinv>1000..1499</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="2" height=17 class=ad> 1 <i>(0.3%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#AC0001">&nbsp;</td><td class=tinv>500..999</td></tr></table></td>
+<td align=left class=v5> 0 <i>(0%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="17" class=ad bgcolor="#B90001">&nbsp;</td><td class=tinv>1..499</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="4" height=17 class=ad> 2 <i>(0.6%)</i> </td></tr>
+<tr><td class=v4><table width="100%" class=t6 style="border:0px;"><tr><td width="16" class=ad bgcolor="#FFFFFF">&nbsp;</td><td class=tinv>0</td></tr></table></td>
+<td align=left class=v5> <img src="pipe4.png" width="14" height=17 class=ad> 7 <i>(2.0%)</i> </td></tr>
+</table><br>
+<a name="long"></a>
+<span class=txt1><hr width="90%"><br></span>
+<h3>Long term statistics - two month sections</h3>
+<Table cellspacing=0 cellpadding=1><tr class=s1 valign=bottom>
+<td class=tgr>109210<br><img src="pipeltv.png" width="28" height="33"></td>
+<td class=tgr>195167<br><img src="pipeltv.png" width="28" height="59"></td>
+<td class=tgr>212942<br><img src="pipeltv.png" width="28" height="64"></td>
+<td class=tgr>239179<br><img src="pipeltv.png" width="28" height="72"></td>
+<td class=s2>265814<br><img src="pipeltv.png" width="28" height="80"></td>
+<td class=tgr>242014<br><img src="pipeltv.png" width="28" height="73"></td>
+<td class=tgr>189606<br><img src="pipeltv.png" width="28" height="57"></td>
+<td class=tgr>192147<br><img src="pipeltv.png" width="28" height="58"></td>
+<td class=tgr>264414<br><img src="pipeltv.png" width="28" height="80"></td>
+<td class=tgr>246331<br><img src="pipeltv.png" width="28" height="74"></td>
+<td class=tgr>250934<br><img src="pipeltv.png" width="28" height="76"></td>
+<td class=tgr>251436<br><img src="pipeltv.png" width="28" height="76"></td>
+<td class=tgr>195936<br><img src="pipeltv.png" width="28" height="59"></td>
+<td class=tgr>218455<br><img src="pipeltv.png" width="28" height="66"></td>
+<td class=tgr>194004<br><img src="pipeltv.png" width="28" height="58"></td>
+<td class=tgr>170215<br><img src="pipeltv.png" width="28" height="51"></td>
+<td class=tgr>18271<br><img src="pipeltv.png" width="28" height="5"></td>
+</tr><tr class=s3>
+<td class=v4>1 - 2<br>2006</td>
+<td bgcolor="#601414">3 - 4<br>2006</td>
+<td bgcolor="#622727">5 - 6<br>2006</td>
+<td bgcolor="#653A3A">7 - 8<br>2006</td>
+<td bgcolor="#674D4E">9 - 10<br>2006</td>
+<td bgcolor="#696161">11 - 12<br>2006</td>
+<td class=v6>1 - 2<br>2007</td>
+<td bgcolor="#271617">3 - 4<br>2007</td>
+<td bgcolor="#331212">5 - 6<br>2007</td>
+<td bgcolor="#400D0D">7 - 8<br>2007</td>
+<td bgcolor="#4C0808">9 - 10<br>2007</td>
+<td bgcolor="#580303">11 - 12<br>2007</td>
+<td class=v5>1 - 2<br>2008</td>
+<td bgcolor="#5C5C5C">3 - 4<br>2008</td>
+<td class=v1>5 - 6<br>2008</td>
+<td bgcolor="#3F3F40">7 - 8<br>2008</td>
+<td bgcolor="#313131">9 - 10<br>2008</td>
+</tr></table>
+<span class=txt2>*** Total number of lines: <b>3,456,075</b> ***</span><br>
+<span class=txt2>Estimated number of lines for current section: 185600 lines</span><br><br>
+<span class=txt1>Top week: 26/2006 (26.6-2.7.2006) - 42472 lines</span><br><br>
+1. Main page
+ | <a href="efu_page_2.html" target="_self">2. Detailed Analysis</a>
+ | <a href="efu_page_3.html" target="_self">3. Detailed Personals</a>
+<br><br>
+<a name="fca943"></a>
+<br><!-- DO NOT REMOVE THE COPYRIGHT INFO! -->
+<Table cellpadding=2 class=cr bgcolor="#E0E0F0"><tr><td class=tinv>
+<a href="http://www.mircstats.com/" target="_top">mIRCStats v1.21</a> &copy Mikko "Ave" Auvinen
+</td></tr></table><br><!-- Run time 2 mins 53 seconds -->
+</center></body></html>
